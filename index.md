@@ -30,7 +30,7 @@ permalink: /
 
 {% for post in site.posts limit:10 %}
   - <b>{{ post.date | date: "%Y-%m-%d" }}</b>: 
-    [{{ post.title }}]({{ post.url }})
+    [{{ post.title }}](/honey{{ post.url }})
 {% endfor %}
 
 {% if site.posts.size == 0 %}

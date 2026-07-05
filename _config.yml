@@ -5,18 +5,22 @@ remote_theme: pages-themes/hacker@v0.2.0
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 
-# Для GitHub Pages (если репо не в корне домена)
-baseurl: "/honey" 
+# Для GitHub Pages (проектный сайт)
+baseurl: "/honey"
 url: "https://nazarovki.github.io"
 
-# Это нужно, чтобы тема знала, какой лейаут брать по умолчанию
+# Настройки по умолчанию
 defaults:
   - scope:
       path: ""
     values:
       layout: "default"
+  - scope:
+      type: "posts"
+    values:
+      # Это ключ! Посты будут по адресу /2026/07/05/go/
+      permalink: "/:year/:month/:day/:title/"
 
-# Если у тебя есть коллекция notes, оставь её здесь:
 collections:
   notes:
     output: true
