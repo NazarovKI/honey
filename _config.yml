@@ -6,9 +6,18 @@ plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 
 # Для GitHub Pages (если репо не в корне домена)
-baseurl: "/honey" 
-url: "https://kirill.github.io"
+baseurl: "" 
+url: "https://nazarovki.github.io"
 
+# Это нужно, чтобы тема знала, какой лейаут брать по умолчанию
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+# Если у тебя есть коллекция notes, оставь её здесь:
 collections:
   notes:
     output: true
+    permalink: /notes/:path/
