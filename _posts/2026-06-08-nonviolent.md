@@ -1,10 +1,12 @@
 ---
+layout: post
 tags:
   - nonviolent
   - communication
 title: Ненасильственное общение
 date: 2026-06-08 14:30:00 +0300
-tad:
+tag:
+layout: post
 ---
 
 # Ненасильственное общение

@@ -1,6 +1,7 @@
 ---
+layout: post
 date: 2023-11-08
-draft: true
+published: false
 title: Бог, мир, человек
 category: ОДНКНР
 ---

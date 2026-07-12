@@ -1,5 +1,6 @@
 ---
-draft: true
+layout: post
+published: false
 title: Строил планы которые не сбылись
 date: 2022-03-17
 ---

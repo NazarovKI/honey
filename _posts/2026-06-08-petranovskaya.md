@@ -1,5 +1,6 @@
 ---
-draft: true
+layout: post
+published: false
 date: 2026-06-08 14:30:00 +0300
 title: Как повлияет садик на привязанность Серафимы к Маме
 ---

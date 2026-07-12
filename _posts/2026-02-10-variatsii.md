@@ -1,6 +1,7 @@
 ---
+layout: post
 date: 2026-02-10-variatsii
-draft: true
+published: false
 tags:
   - workday
 title: Проработка прайс листа окон

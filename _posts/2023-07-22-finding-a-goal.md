@@ -1,5 +1,6 @@
 ---
-draft: true
+layout: post
+published: false
 date: 2023-07-22
 title: Обретение цели
 ---

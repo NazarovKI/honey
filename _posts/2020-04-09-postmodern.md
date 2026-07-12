@@ -1,5 +1,6 @@
 ---
-draft: true
+layout: post
+published: false
 title: Напоминание о потопе
 tags:
   - "#постмодерн"
