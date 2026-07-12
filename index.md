@@ -9,6 +9,10 @@ date: 2026-06-08
   <a href="{{ project.url | relative_url }}">{{ project.title }}</a>
 {% endfor %}
 
+{% for repository in site.github.public_repositories %}
+  * [{{ repository.name }}]({{ repository.html_url }})
+{% endfor %}
+
 Когда люди объединяются и делятся происходит расширение связей семьи с внешним миром. 
 Многодетные семьи как правило замкнуты, 
 у них есть круг специфических родительских проблем, 
