@@ -27,3 +27,8 @@ collections:
   notes:
     output: true
     permalink: /notes/:path/
+
+# _config.yml
+mermaid:
+  initialize: # сюда можно передать JSON-объект с настройками Mermaid
+    theme: 'dark'
