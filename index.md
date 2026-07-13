@@ -5,13 +5,18 @@ title: О нас
 date: 2026-06-08
 ---
 <img src="assets/images/Ignatij.jpg" alt="Игнатий" width="850">
+
+# Проекты родительской школы
 {% for project in site.projects %}
   <a href="{{ project.url | relative_url }}">{{ project.title }}</a>
 {% endfor %}
 
+# Репозитории
 {% for repository in site.github.public_repositories %}
   * [{{ repository.name }}]({{ repository.html_url }})
 {% endfor %}
+
+# Уроки информатики
 
 Когда люди объединяются и делятся происходит расширение связей семьи с внешним миром. 
 Многодетные семьи как правило замкнуты, 
