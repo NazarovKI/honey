@@ -7,9 +7,9 @@ title: Garry's mod посмотреть
 Garry's mod
 посмотреть
 
-{% mermaid %}
+<div class="mermaid">
 graph LR
     A[Клиент] --> B{Выбор окна}
     B --> C[VEKA]
     B --> D[Другой бренд]
-{% endmermaid %}
+1. </div>
