@@ -1,0 +1,57 @@
+/* Календарь */
+.calendar-wrapper {
+  margin: 2rem 0;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.calendar-title {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.calendar {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 4px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.calendar__we {
+  font-weight: bold;
+  color: #e22;
+  text-align: center;
+  padding: 4px 0;
+}
+
+.calendar__day {
+  text-align: center;
+  padding: 8px 0;
+  border-radius: 4px;
+  background: white;
+  font-size: 0.9rem;
+}
+
+/* Дни с постами — зелёная точка */
+.calendar__ext {
+  position: relative;
+  font-weight: 500;
+}
+
+.calendar__ext::after {
+  content: '•';
+  position: absolute;
+  top: -2px;
+  right: 6px;
+  color: #2e7d32;
+  font-size: 1.4rem;
+}
+
+/* Выходные */
+.calendar__day:nth-child(7n+1),
+.calendar__day:nth-child(7n) {
+  color: #999;
+}
