@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2026-06-08 14:30:00 +0300
+date: 2026-08-06
 title: Пубертат
 layout: post
 ---

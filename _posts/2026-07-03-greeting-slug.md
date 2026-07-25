@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2026-07-03T11:30:00+00:00
+date: 2026-07-03
 title: Христианство и социализм
 published: false
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2026-02-10-variatsii
+date: 2026-02-10
 published: false
 tags:
   - workday

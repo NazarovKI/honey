@@ -4,7 +4,7 @@ tags:
   - nonviolent
   - communication
 title: Ненасильственное общение
-date: 2026-06-08 14:30:00 +0300
+date: 2026-06-08
 tag:
 layout: post
 ---

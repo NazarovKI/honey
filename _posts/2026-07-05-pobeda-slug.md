@@ -1,7 +1,7 @@
 ---
 layout: post
 layout: post
-date: 2026-07-05 14:30:00 +0300
+date: 2026-07-05
 title: Это победа над миром
 published: true
 ---
