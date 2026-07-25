@@ -1,6 +1,6 @@
 ---
 date: 2026-07-14
-title: Pre-puberty
+title: puberty blossom movement
 layout: post
 ---
 Формирование возможности получения удовольствия от движения. Появляется авторитет учителя или тренера.
