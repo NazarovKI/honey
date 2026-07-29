@@ -9,7 +9,7 @@ plugins:
 - jekyll-relative-links
 
 # Для GitHub Pages (проектный сайт)
-baseurl: ""
+baseurl: "/honey"
 url: "https://nazarovki.github.io"
 
 # Настройки по умолчанию
