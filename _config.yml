@@ -15,7 +15,7 @@ url: "https://nazarovki.github.io"
 # Настройки по умолчанию
 defaults:
   - scope:
-      path: ""
+      path: "/honey"
     values:
       layout: "default"
   - scope:
